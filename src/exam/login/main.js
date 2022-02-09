@@ -30,9 +30,3 @@ pw.onkeydown = () => {
         btnLogin.setAttribute('disabled', 'disabled');
     }
 };
-
-
-// 아이디 입력란이 입력되고 + 비밀번호가 8자리 이상이어야지 (여기에 경고문)
-// 로그인 버튼이 활성화가 되고 (기본값은 disabled) >> setRemove('disalbed')
-// 로그인 버튼을 눌렀을 때 아이다 alert창
-
